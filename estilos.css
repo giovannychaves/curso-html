@@ -1,1 +1,66 @@
+*{
+    box-sizing: border-box;
+}
 
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+ul{
+    padding: 0px;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p{
+    font-size: 18px;
+}
+
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+ .main{
+    float: left;
+    max-width: 660px;
+    padding: 20px;
+ }
+
+ .separador::after{
+    content: "____";
+    display: block;
+ }
+
+.menu-lateral{
+    float: left;
+    max-width: 300px;
+    background-color: blueviolet;
+    padding: 20px;
+}
+
+.menu-lateral h2{
+    color: #222;
+}
+
+.menu-lateral p{
+    color: white;
+}
+
+.menu-lateral ul li{
+    padding: 5px 0;
+}
+
+.menu-lateral a{
+    color: white;
+}
+
+.menu-lateral a:hover{
+    color: black;
+}
